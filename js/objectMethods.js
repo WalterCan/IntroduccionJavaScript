@@ -20,4 +20,3 @@ producto.precio = 700;
 console.log(Object.isFrozen(producto)); //Funcion para saber si un producto esta Bloqueado para modificación. En el caso de estarlo, va a imprimir : TRUE
 
 console.log(producto);
-
