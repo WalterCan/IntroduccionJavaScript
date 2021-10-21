@@ -1,6 +1,7 @@
 // SWITCH
 // Siempre poner el Break al terminar cada Case
-
+// Evalua y en caso de ser igual ejecuta el codigo correspondiente.
+// Para realizar multiples condiciones
 const formaDePago = "Cheque";
 
 switch (formaDePago) {
