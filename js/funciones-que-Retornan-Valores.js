@@ -4,7 +4,7 @@ function sumar(n1, n2) {
   return n1 + n2;
 }
 const resultado = sumar(33, 9); //Retornamos el Total a la variable "Resultado"
-console.log(resultado); //Mostramos en pantalla
+//Mostramos en pantalla
 
 // Simulamos un Carrito de Compras
 
