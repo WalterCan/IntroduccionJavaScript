@@ -16,7 +16,7 @@ for (let j = 0; j <= 10; j++) {
 }
 
 // Iterando sobre un Array
-
+console.log("Iterando Sobre un Array.-");
 const compra = [
   { nombre: "Monitor de 22 Pulgadas", Precio: 400 },
   { nombre: "Monitor de 19 Pulgadas", Precio: 300 },
@@ -26,8 +26,13 @@ const compra = [
   { nombre: "Monitor de 52 Pulgadas", Precio: 1500 },
   { nombre: "Monitor de 65 Pulgadas", Precio: 4000 },
 ];
-
+console.log("Mostrando el Arreglo Completo:");
 for (let i = 0; i < compra.length; i++) {
   console.log(compra[i]); //Iteramos Sobre todos los elementos
-  console.log(compra[i].nombre); //Iteramos solamente sobre el nombre
+}
+
+console.log("Mostrando Solo Los Nombres del Array:");
+
+for (let a = 0; a < compra.length; a++) {
+  console.log(compra[a].nombre);
 }
