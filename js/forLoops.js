@@ -8,6 +8,6 @@ for (let i = 0; i <= 10; i++) {
 
 for (let j = 0; j <= 100; j++) {
   if (j % 2 === 0) {
-    console.log(`Numero Par: ${j}`);
+    console.table(`Numero Par: ${j}`);
   }
 }
