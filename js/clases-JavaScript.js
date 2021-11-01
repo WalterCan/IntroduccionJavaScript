@@ -15,6 +15,9 @@ class Producto {
   formatearProducto() {
     return `El producto: ${this.nombre}, tiene un precio de $ ${this.precio}`;
   }
+  preciosProducto() {
+    return `El precio del producto es de: $ ${this.precio}`;
+  }
 }
 
 // Instanciamos la clase
