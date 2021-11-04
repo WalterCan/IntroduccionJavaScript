@@ -10,3 +10,22 @@ function descargaNuevosClientes() {
     }, 5000);
   });
 }
+
+// Para poder usar el Async - Await
+// Tenemos que crear primero una Funcion
+// Esa funcion debe ser Asincrona, agregando al inicio de la funcion -> "async"
+
+async function app() {
+  //Definimos que es una Funcion Asincrona
+  // Vamos a intentar descargar los clientes, en caso de que no se pueda, vamos a ver en la consola el error -> con un Try-Catch
+  try {
+    const resultado = await descargaNuevosClientes();
+    console.log(resultado);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+app();
+
+console.log("Este código no se bloquea");
